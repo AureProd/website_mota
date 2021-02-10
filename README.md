@@ -5,8 +5,8 @@
 Initialiser la BDD avec le fichier de sauvegarde de la BDD
 
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
+$ git clone git@github.com:HuetJB/website_mota.git
+$ cd ./website_mota
 $ npm install
-$ node index.js
+$ node index.js // <-- to start
 ```

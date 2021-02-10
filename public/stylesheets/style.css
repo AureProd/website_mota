@@ -1,0 +1,62 @@
+
+#header
+{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#loginDiv
+{
+    padding-right: 0px;
+}
+
+main .card
+{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.demarrer
+{
+    color: green;
+}
+
+.arreter
+{
+    color: #ab1818;
+}
+
+.justify-text
+{
+    text-align: justify;
+}
+
+.bg_grey
+{
+    background-color: #BCBCBC;
+}
+
+.bg_blue
+{
+    background-color:#ab1818;
+}
+
+.hauteur
+{
+    height: 50px;
+}
+
+.middle
+{
+    vertical-align: middle;
+}
+
+.size_titre
+{
+    font-size: 50px;
+}
+
+.font_family
+{
+    font-family: "Arial";
+}

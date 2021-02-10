@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>M.O.T.A</title>
+    <link rel="icon" href="./images/favicon.ico" />
+</head>
+
+<body class="bg_grey font_family">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./javascripts/functions_admin.js"></script>
+    <script src="./javascripts/admin.js"></script>
+
+    <header>
+        <div class="bg_blue text-decoration-none">
+            <div class="row" id="header">
+                <div class="col-sm-2 col-lg-1"></div>
+                <div class="col-sm-8 col-lg-10 text-center">
+                    <a class="nav-link" href="./index.html">
+                        <h1 class="size_titre text-white text-thumbnail">M.O.T.A admin</h1>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-lg-1 text-center" id="loginDiv">
+                    <div class="card bg-light">
+                        <a href="./connexion.html?type=login" class="text-dark login">login</a>
+                        <a href="./connexion.html?type=register" class="text-dark login">register</a>
+                        <a id="logout" href="/user/logout" class="text-dark">logout</a>
+                    </div>
+                </div>
+            </div>
+            <div class="acces_dix">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link active text-dark" href="admin.html">Administration</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="comptes_website.html">Comptes du site web</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="serveurs.html">Serveurs</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="whiteliste.html?table=stargatedb">WhiteListe StarGate</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="whiteliste.html?table=stargatedb_dev">WhiteListe StarGate Dev</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="">
+        <div id="servers" class="container container-md container-lg">
+            
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

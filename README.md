@@ -26,10 +26,11 @@ Importer les utilisateurs de la BDD avec le fichier [BDD_users.sql](bdd/BDD_user
 $ git clone git@github.com:HuetJB/website_mota.git
 $ cd ./website_mota
 $ npm install
+$ npm install forever -g
 ```
 
 ## Lancement du site web
 
 ```
-$ node index.js
+$ forever index.js
 ```

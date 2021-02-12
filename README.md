@@ -4,7 +4,7 @@
 
 ### Installation de MySQL Server
 
-A ne pas faire si MySQL server est déjà installé
+A ne pas faire si MySQL server est déjà installé.
 
 ```
 $ sudo apt update
@@ -20,7 +20,7 @@ $ GRANT ALL PRIVILEGES ON *.* TO '<USERNAME>'@'%' WITH GRANT OPTION;
 
 Installez ce gestionnaire de BDD [HeidiSQL](https://www.heidisql.com/installers/HeidiSQL_11.2.0.6213_Setup.exe) et connectez-vous via le tunnel SSH.
 
-Via HeidiSQL, importez les utilisateurs de la BDD avec le fichier [BDD_users.sql](bdd/BDD_users.sql) et les bases de données avec le fichier [BDD.sql](bdd/BDD.sql)
+Via HeidiSQL, importez les utilisateurs de la BDD avec le fichier [BDD_users.sql](bdd/BDD_users.sql) et les bases de données avec le fichier [BDD.sql](bdd/BDD.sql).
 
 ## Installation du site web
 

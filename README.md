@@ -35,8 +35,9 @@ Via HeidiSQL, importez les utilisateurs de la BDD avec le fichier [BDD_users.sql
 ## Installation du site web
 
 ```
+$ cd
 $ git clone git@github.com:HuetJB/website_mota.git
-$ cd ./website_mota
+$ cd ~/website_mota
 $ npm install
 $ npm install forever -g
 ```
@@ -45,6 +46,7 @@ $ npm install forever -g
 
 ```
 $ screen -S website
+$ cd ~/website_mota
 $ forever index.js
 $ ctrl + A + D
 ```

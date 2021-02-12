@@ -1,5 +1,15 @@
 # Site web de la team MOTA
 
+## Installation de Screen
+
+A ne pas faire si Screen est déjà installé
+
+```
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install screen
+```
+
 ## Installation de la BDD
 
 ### Installation de MySQL Server
@@ -34,5 +44,15 @@ $ npm install forever -g
 ## Lancement du site web
 
 ```
+$ screen -S website
 $ forever index.js
+$ ctrl + A + D
+```
+
+## Arrêt du site web
+
+```
+$ screen -r website
+$ ctrl + C
+$ ctrl + D
 ```

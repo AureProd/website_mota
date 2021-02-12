@@ -18,9 +18,9 @@ $ GRANT ALL PRIVILEGES ON *.* TO '<USERNAME>'@'%' WITH GRANT OPTION;
 
 ### Importation des utilisateurs et des bases de données sur la BDD
 
-Installer ce gestionnaire de BDD [HeidiSQL](https://www.heidisql.com/installers/HeidiSQL_11.2.0.6213_Setup.exe) et connecté vous via le tunnel SSH.
+Installez ce gestionnaire de BDD [HeidiSQL](https://www.heidisql.com/installers/HeidiSQL_11.2.0.6213_Setup.exe) et connectez-vous via le tunnel SSH.
 
-Importer les utilisateurs de la BDD avec le fichier [BDD_users.sql](bdd/BDD_users.sql) et importer les BDD avec le fichier [BDD.sql](bdd/BDD.sql)
+Importez les utilisateurs de la BDD avec le fichier [BDD_users.sql](bdd/BDD_users.sql) et importez les bases de données avec le fichier [BDD.sql](bdd/BDD.sql)
 
 ## Installation du site web
 

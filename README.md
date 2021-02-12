@@ -4,6 +4,8 @@
 
 ### Installation de MySQL Server
 
+A ne pas faire si MySQL server est déjà installé
+
 ```
 $ sudo apt update
 $ sudo apt upgrade

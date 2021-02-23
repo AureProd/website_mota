@@ -42,6 +42,16 @@ $ npm install
 $ npm install forever -g
 ```
 
+## Configuration du CRON pour le lancement du site web
+
+Copiez le code de la page [lancement_site_node.sh](script/lancement_site_node.sh) dans le fichier ```/etc/init.d/lancement_site_node.sh```
+
+```
+$ chmod +x /etc/init.d/lancement_site_node.sh
+```
+
+Ajoutez ceci ```* * * * * root sh /etc/init.d/lancement_site_node.sh``` dans le fichier ```/etc/crontab```
+
 ## Lancement du site web
 
 ```

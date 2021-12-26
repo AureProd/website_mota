@@ -2,7 +2,7 @@ var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'botdiscord',
-  password : 'botdiscord35',
+  password : '3GLq86Cq4t',
   database : 'stargatedb_dev'
 });
 

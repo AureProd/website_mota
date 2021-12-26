@@ -11,7 +11,7 @@ const client = new Discord.Client();
 
 const app = express();
 
-const hostname = 'motagaming.ddns.net';
+const hostname = 'mota-team.ddns.net';
 const port = 80;
 const server = http.createServer(app);
 
